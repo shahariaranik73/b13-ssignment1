@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
     line-height: 24px;
     font-size: 18px;
     padding: 20px;
-    /* width: 1300px; */
+    gap: 16px;
 }
 
 #banner .baner-contant h1 {
@@ -53,9 +53,9 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 16px 120px;
     width: 88%;
-}
+    padding: 0 120px;
+}  
 
 .manu {
     display: flex;
@@ -115,6 +115,125 @@ nav {
 }
 
 .btn2:hover {
-    background-color: rgb(246, 169, 233);
+    background-color: rgba(85, 17, 75, 0);
     transform: scale(1.04);
 }
+.section-head{
+    justify-content: center;
+    text-align: center;
+}
+.section-head h2{
+    font-size: 48px;
+    color: #001931;
+}
+.section-head p{
+    padding-top: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+#card{
+    padding-top: 50px;
+}
+#card .card-container{
+    width: 88%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.card-box{
+    display: flex;
+    gap: 24px;
+}
+
+.card-box .card-contant{
+    padding: 24px;
+    width: 88%;
+    max-width: 322px;
+}
+
+/* card  */
+.img-soon {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 120px;
+}
+.img-soon:hover {
+  transform: scale(1.15);
+}
+.img-prent {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+.titil {
+  max-width: 1050px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 30px;
+}
+.text {
+  padding-bottom: 44px;
+}
+.p {
+  color: #627382;
+}
+ /* new Section */
+
+.image-cotainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.div-containaer{
+    display: flex;
+    margin: 10px auto;
+
+}
+
+.font{
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.paragraph{
+    margin: 20px auto;
+    color: #627382;
+}
+.challange-pat{
+    text-align: center;
+    max-width: 1350px;
+    margin:0px auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F7F6F2;
+    border-radius: 5px;
+}
+.challange-p{
+    margin: 20px auto;
+
+}
+
+.parant{
+    margin-bottom: 120px ;
+}
+.footer-son{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.parent-footer{
+    background-color: #001931;
+    color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    
+  }
