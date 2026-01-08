@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    padding: 120px;
+    height: 120;
+}
+.manu{
+    display: flex;
+    gap: 34px;
+}
+.manu li{
+    list-style: none;
+
+}
