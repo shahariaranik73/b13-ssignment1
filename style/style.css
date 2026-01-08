@@ -64,6 +64,8 @@ nav{
     border-radius: 4px ;
     background-color: #469165;
     color: #FFFFFF;
+    font-weight: 550;
+    cursor: pointer;
 }
 .btn1{
  border: none;
@@ -71,14 +73,22 @@ nav{
  border-radius: 1000px;
  margin-bottom: 16px;
  color: #469165;
- font-weight: bold;
+ font-weight: 600;
  width: 230px;
+ cursor: pointer;
 }
 
 .btn2{
     border: 1px solid #FFFFFF;
+    color: #FFFFFF;
     padding: 12px;
     border-radius: 4px;
     background: transparent; 
-
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+}
+.btn2 img{
+    justify-content: center;
+    position: left;
 }
