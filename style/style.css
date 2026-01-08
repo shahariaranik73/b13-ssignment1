@@ -18,10 +18,11 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: 700px;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    display: flex;
+    flex-direction: column;
     background-size:cover;
 }
 #banner .baner-contant{
@@ -29,7 +30,15 @@ header{
     line-height: 24px;
     font-size: 18px;
     padding: 20px;
-    
+    /* width: 1300px; */
+}
+#banner .baner-contant h1{
+    line-height: 38px;
+    margin-bottom: 16px;
+}
+#banner .baner-contant p{
+    line-height: 28px;
+    margin-bottom: 16px;
 }
 #banner .baner-contant .banner-c-h{
     color: #30B868;
@@ -67,5 +76,9 @@ nav{
 }
 
 .btn2{
+    border: 1px solid #FFFFFF;
+    padding: 12px;
+    border-radius: 4px;
+    background: transparent; 
 
 }
