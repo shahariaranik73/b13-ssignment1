@@ -1,19 +1,21 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
-header{
+
+header {
     background-color: #FFFFFF;
 }
 
-#banner{
+#banner {
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     width: 100%;
@@ -23,72 +25,96 @@ header{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-size:cover;
+    background-size: cover;
 }
-#banner .baner-contant{
+
+#banner .baner-contant {
     color: #FFFFFF;
     line-height: 24px;
     font-size: 18px;
     padding: 20px;
     /* width: 1300px; */
 }
-#banner .baner-contant h1{
+
+#banner .baner-contant h1 {
     line-height: 38px;
     margin-bottom: 16px;
 }
-#banner .baner-contant p{
+
+#banner .baner-contant p {
     line-height: 28px;
     margin-bottom: 16px;
 }
-#banner .baner-contant .banner-c-h{
+
+#banner .baner-contant .banner-c-h {
     color: #30B868;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 16px 120px;
     width: 88%;
 }
-.manu{
+
+.manu {
     display: flex;
     font-size: 16px;
     gap: 34px;
     align-items: center;
 }
-.manu li{
+
+.manu li {
     list-style: none;
 }
-.btn{
+
+.btn {
     padding: 12px 16px;
     border: none;
-    border-radius: 4px ;
+    border-radius: 4px;
     background-color: #469165;
     color: #FFFFFF;
     font-weight: 550;
     cursor: pointer;
-}
-.btn1{
- border: none;
- padding: 12px;
- border-radius: 1000px;
- margin-bottom: 16px;
- color: #469165;
- font-weight: 600;
- width: 230px;
- cursor: pointer;
+    transition: 0.3s;
 }
 
-.btn2{
+.btn:hover {
+    background-color: purple;
+    transform: scale(1.03);
+
+}
+
+.btn1 {
+    border: none;
+    padding: 12px;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+    color: #469165;
+    font-weight: 600;
+    width: 230px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background-color: rgb(246, 169, 233);
+    transform: scale(1.03);
+}
+
+.btn2 {
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     padding: 12px;
     border-radius: 4px;
-    background: transparent; 
+    background: transparent;
     font-weight: 600;
     align-items: center;
     cursor: pointer;
+    transition: 0.3s;
 }
-.btn2 img{
-    justify-content: center;
-    position: left;
+
+.btn2:hover {
+    background-color: rgb(246, 169, 233);
+    transform: scale(1.04);
 }
